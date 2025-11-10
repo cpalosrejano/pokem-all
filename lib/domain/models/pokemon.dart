@@ -1,13 +1,11 @@
 class Pokemon {
   final int id;
-  final String nombre;
-  final String imagen; // Esta será la URL
+  final String name;
+  final String image;
 
   const Pokemon({
     required this.id,
-    required this.nombre,
-    required this.imagen,
+    required this.name,
+    required this.image,
   });
-
-  // Podríamos añadir fromJson, equatables, etc. pero lo mantenemos simple.
 }
